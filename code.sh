@@ -1,7 +1,7 @@
 #!/bin/bash
 
-set -e #debug mode
-set -x #error find
+set -e #error find
+set -x #debug mode
 set -o 'pipefail' #for pipeline
 
 File="Sc_Av.tsv"
